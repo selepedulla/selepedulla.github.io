@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Selene Pedulla | Portfolio Web</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navegación interna -->
+  <header id="navbar">
+    <nav class="nav-container">
+      <a href="#inicio" class="logo">Selene<span>.dev</span></a>
+      <ul class="nav-links">
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+        <li><a href="inspiracion.html">¿En qué me inspiré?</a></li>
+      </ul>
+      <button id="btn-tema" aria-label="Cambiar tema">🌙 Modo Oscuro</button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- 1. HERO / PRESENTACIÓN -->
+    <section id="inicio" class="hero">
+      <div class="hero-content">
+        <img src="imag/sele.jpeg" alt="Foto de perfil de Selene Pedulla" class="avatar">
+        <h1>Selene Desiree Pedulla</h1>
+        <h2>Estudiante de Tecnicatura en Programación</h2>
+        <p class="frase">Construyendo soluciones web dinámicas, bases de datos eficientes y prototipos tecnológicos con foco en el detalle.</p>
+        <div class="hero-botones">
+          <a href="#proyectos" class="btn-primario">Ver proyectos</a>
+          <a href="#contacto" class="btn-secundario">Contactarme</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. SOBRE MÍ -->
+    <section id="sobre-mi" class="seccion">
+      <div class="contenedor">
+        <h2 class="titulo-seccion">Sobre mí</h2>
+        <p class="texto-sobre-mi">
+          Soy estudiante de 6° año en la <strong>E.E.S.T. N° 5 de Ranelagh</strong>, especializándome en Informática y Programación. 
+          Me apasiona el desarrollo web tanto del lado del cliente como del servidor, el diseño y administración de bases de datos relacionales, 
+          y la integración de software con hardware (IoT). Disfruto transformar ideas en aplicaciones funcionales, ordenadas y fáciles de usar, 
+          combinando lógica de programación con buen criterio visual.
+        </p>
+      </div>
+    </section>
+
+    <!-- 3. PROYECTOS (Orden cronológico: más reciente primero) -->
+    <section id="proyectos" class="seccion fondo-alterno">
+      <div class="contenedor">
+        <h2 class="titulo-seccion">Proyectos</h2>
+        <div class="grid-proyectos">
+
+          <!-- Proyecto 1 (Obligatorio - Más reciente - 2026) -->
+          <article class="proyecto-card revelar">
+            <img src="imag/carrusel.png" alt="Captura Tienda Dinámica con Carrusel">
+            <div class="card-body">
+              <span class="anio">2026</span>
+              <h3>Tienda Dinámica con Carrusel</h3>
+              <p>Catálogo web interactivo con carrusel de productos dinámicos, cambio de tema claro/oscuro y filtrado de artículos en tiempo real.</p>
+              <div class="tags">
+                <span>HTML5</span>
+                <span>CSS3</span>
+                <span>JavaScript</span>
+              </div>
+              <a href=" https://selepedulla.github.io/carrusel.github.io/" target="_blank" class="btn-link">Ver en GitHub →</a>
+            </div>
+          </article>
+
+          <!-- Proyecto 2 (Obligatorio - 2026) -->
+          <article class="proyecto-card revelar">
+            <img src="imag/calculadora.png" alt="Captura Calculadora JavaScript">
+            <div class="card-body">
+              <span class="anio">2026</span>
+              <h3>Calculadora Web Interactiva</h3>
+              <p>Aplicación web capaz de realizar operaciones aritméticas básicas y encadenadas con manejo de eventos, validación de errores y diseño responsivo.</p>
+              <div class="tags">
+                <span>HTML5</span>
+                <span>CSS Grid</span>
+                <span>JavaScript</span>
+              </div>
+              <a href="https://selepedulla.github.io/calculadora.github.io/" target="_blank" class="btn-link">Ver en GitHub →</a>
+            </div>
+          </article>
+
+          <!-- Proyecto 3 (Obligatorio - Actividad 1 - 2026) -->
+          <article class="proyecto-card revelar">
+            <img src="imag/webelectrica.png" alt="Captura Maquetado Tienda HTML/CSS">
+            <div class="card-body">
+              <span class="anio">2026</span>
+              <h3>Tienda Web Maquetada (Actividad 1)</h3>
+              <p>Primera versión de e-commerce enfocada en estructura semántica, diseño de tarjetas con Flexbox/Grid y adaptación a dispositivos móviles.</p>
+              <div class="tags">
+                <span>HTML5</span>
+                <span>CSS3</span>
+                <span>Responsive Design</span>
+              </div>
+              <a href="https://selepedulla.github.io/pedulla62dwd.github.io/" target="_blank" class="btn-link">Ver en GitHub →</a>
+            </div>
+          </article>
+
+          <!-- Proyecto 4 (Portfolio Personal - 2026) -->
+          <article class="proyecto-card revelar">
+            <img src="imag/portfoliopersonal.png" alt="Captura Portfolio Web Personal">
+            <div class="card-body">
+              <span class="anio">2026</span>
+              <h3>Portfolio Web Personal</h3>
+              <p>Sitio one-page personal que trabajamos años pasados.</p>
+              <div class="tags">
+                <span>HTML5</span>
+                <span>CSS3</span>
+                <span>JavaScript</span>
+                <span>Formspree</span>
+              </div>
+              <a href="https://selepedulla.github.io/portfoliopersonal.github.io/" target="_blank" class="btn-link">Ver en GitHub →</a>
+            </div>
+          </article>
+
+          <!-- Proyecto 5 (Santa Cruz y Tierra del Fuego) -->
+          <article class="proyecto-card revelar">
+            <img src="imag/provincias.png" alt="Captura Página Santa Cruz y Tierra del Fuego">
+            <div class="card-body">
+              <span class="anio">2026</span>
+              <h3>Guía Turística: Santa Cruz y Tierra del Fuego</h3>
+              <p>Sitio web informativo dedicado a los atractivos naturales, geografía, fauna y circuitos turísticos del extremo sur de la Patagonia argentina.</p>
+              <div class="tags">
+                <span>HTML5</span>
+                <span>CSS3</span>
+                <span>Diseño Web</span>
+              </div>
+              <a href="https://selepedulla.github.io/provinciasfusaro.github.io/" target="_blank" class="btn-link">Ver en GitHub →</a>
+            </div>
+          </article>
+
+          <!-- Proyecto 6 (Portal de Estudiantes) -->
+          <article class="proyecto-card revelar">
+            <img src="imag/universidad.png" alt="Captura Portal de Estudiantes">
+            <div class="card-body">
+              <span class="anio">2026</span>
+              <h3>portal universidad</h3>
+              <p>Plataforma web orientada a la gestión académica, consulta de materias, novedades institucionales y acceso rápido a recursos escolares.</p>
+              <div class="tags">
+                <span>HTML5</span>
+                <span>CSS3</span>
+                <span>JavaScript</span>
+                <span>Base de Datos</span>
+              </div>
+              <a href="https://selepedulla.github.io/universidadfusaro.github.io/" target="_blank" class="btn-link">Ver en GitHub →</a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. HABILIDADES / TECNOLOGÍAS -->
+    <section id="habilidades" class="seccion">
+      <div class="contenedor">
+        <h2 class="titulo-seccion">Habilidades y Tecnologías</h2>
+        <div class="grid-skills">
+          <div class="skill-grupo">
+            <h3>Desarrollo Web</h3>
+            <div class="tags">
+              <span>HTML5</span>
+              <span>CSS3</span>
+              <span>JavaScript</span>
+              <span>PHP</span>
+              <span>Diseño Responsivo</span>
+            </div>
+          </div>
+          <div class="skill-grupo">
+            <h3>Bases de Datos y Lenguajes</h3>
+            <div class="tags">
+              <span>MySQL / MariaDB</span>
+              <span>phpMyAdmin</span>
+              <span>MySQL Workbench</span>
+              <span>Python</span>
+              <span>SWI-Prolog</span>
+            </div>
+          </div>
+          <div class="skill-grupo">
+            <h3>Hardware y Herramientas</h3>
+            <div class="tags">
+              <span>Arduino / ESP8266</span>
+              <span>Git & GitHub</span>
+              <span>XAMPP</span>
+              <span>VS Code</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. CONTACTO (Formspree + Validación JS) -->
+    <section id="contacto" class="seccion fondo-alterno">
+      <div class="contenedor">
+        <h2 class="titulo-seccion">Contacto</h2>
+        <p class="subtitulo-contacto">¿Tenés una consulta, propuesta o proyecto? Escribime y te respondo a la brevedad.</p>
+        
+        <!-- REEMPLAZÁ TU_ID_AQUI CON TU ENDPOINT DE FORMSPREE -->
+        <form id="form-contacto" action="https://formspree.io/f/xqpqbjbb" method="POST" novalidate>
+          <div class="campo">
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+          </div>
+          <div class="campo">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="tu@email.com" required>
+          </div>
+          <div class="campo">
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" name="mensaje" rows="4" placeholder="Escribí tu mensaje (mínimo 10 caracteres)..." required></textarea>
+          </div>
+          <p id="error-form" class="mensaje-error" aria-live="polite"></p>
+          <button type="submit" class="btn-primario">Enviar mensaje</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Selene Desiree Pedulla — 6°2 E.E.S.T. N° 5</p>
+    <a href="inspiracion.html">¿En qué me inspiré?</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

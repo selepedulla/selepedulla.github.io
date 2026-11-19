@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inspiración y Proceso | Selene Pedulla</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header id="navbar">
+    <nav class="nav-container">
+      <a href="index.html" class="logo">Selene<span>.dev</span></a>
+      <div style="display: flex; gap: 0.8rem; align-items: center;">
+        <a href="index.html" class="btn-secundario">← Volver al portfolio</a>
+        <button id="btn-tema" aria-label="Cambiar tema">🌙 Modo Oscuro</button>
+      </div>
+    </nav>
+  </header>
+
+  <main class="seccion">
+    <div class="contenedor" style="max-width: 820px;">
+      <h1 class="titulo-seccion">¿En qué me inspiré?</h1>
+
+      <!-- 1. Los 3 portfolios de referencia -->
+      <section style="margin-bottom: 3rem;">
+        <h2 style="margin-bottom: 1rem; color: var(--acento);">1. Portfolios de referencia</h2>
+        
+        <div class="skill-grupo" style="margin-bottom: 1rem;">
+          <h3>Brittany Chiang — <a href="https://brittanychiang.com" target="_blank" class="btn-link">https://brittanychiang.com</a></h3>
+          <p>Portfolio de una ingeniera de software con enfoque minimalista y gran legibilidad. De este sitio tomé la idea de usar etiquetas (badges) bien definidas debajo de cada proyecto para destacar las tecnologías utilizadas y la posibilidad de alternar a una estética oscura cómoda para la lectura.</p>
+        </div>
+
+        <div class="skill-grupo" style="margin-bottom: 1rem;">
+          <h3>Adham Dannaway — <a href="https://www.adhamdannaway.com" target="_blank" class="btn-link">https://www.adhamdannaway.com</a></h3>
+          <p>Portfolio de diseñador y desarrollador front-end. Me aportó la estructura de la sección Hero inicial: ir directo al grano con el nombre, el rol técnico y un llamado a la acción claro hacia los proyectos sin distraer al visitante.</p>
+        </div>
+
+        <div class="skill-grupo">
+          <h3>Jacek Jeznach — <a href="https://jacekjeznach.com" target="_blank" class="btn-link">https://jacekjeznach.com</a></h3>
+          <p>Sitio personal de un desarrollador web. Me inspiró la forma de organizar las habilidades técnicas agrupadas por categorías (Frontend, Backend/BD y Herramientas) en lugar de una lista interminable, además de las transiciones suaves al desplazarse por la página.</p>
+        </div>
+      </section>
+
+      <!-- 2. Decisiones de diseño -->
+      <section style="margin-bottom: 3rem;">
+        <h2 style="margin-bottom: 1rem; color: var(--acento);">2. Mis decisiones de diseño</h2>
+        <ul style="padding-left: 1.5rem; display: flex; flex-direction: column; gap: 0.8rem;">
+          <li><strong>Estética Pastel Goth (Rosas pasteles y violetas):</strong> Elegí combinar fondos en rosa pastel suave (<code>#fdf4f8</code>) y lavanda (<code>#f5ebff</code>) con acentos en violeta vibrante (<code>#9333ea</code>) y texto en violeta profundo (<code>#2e1042</code>). Esta paleta refleja mi identidad personal sin perder el contraste necesario para leer con comodidad, y se transforma en una estética nocturna violeta oscuro con rosa neón suave al activar el modo oscuro.</li>
+          <li><strong>Jerarquía tipográfica gótica y legible:</strong> Utilicé la fuente gótica <em>UnifrakturMaguntia</em> en el logo, mi nombre y los títulos principales, acompañada de <em>Cinzel Decorative</em> en los subtítulos para darle carácter visual, mientras que reservé <em>Plus Jakarta Sans</em> para los párrafos y descripciones de proyectos asegurando una lectura ágil y clara.</li>
+          <li><strong>Distribución One-Page cronológica y responsiva:</strong> Ordené las secciones desde la presentación hasta el contacto, colocando los proyectos más recientes primero (2026) y utilizando <code>CSS Grid</code> adaptable para que las tarjetas mantengan su estética tanto en computadora como en celular.</li>
+        </ul>
+      </section>
+
+      <!-- 3. Qué aprendí en este proceso -->
+      <section style="margin-bottom: 3rem;">
+        <h2 style="margin-bottom: 1rem; color: var(--acento);">3. Qué aprendí en este proceso</h2>
+        <p>
+          Lo más desafiante de armar el portfolio no fue escribir el código, sino seleccionar y sintetizar qué proyectos mostrar y cómo explicarlos en pocas líneas para que se entienda qué problema resuelven. Descubrí la importancia de conectar el frontend estático con servicios reales como Formspree para darle funcionalidad sin necesidad de montar un backend complejo, y el valor de probar el sitio en distintos tamaños de pantalla. Si empezara de nuevo, planificaría desde el principio las capturas de pantalla con exactamente la misma proporción de aspecto para que todas las tarjetas queden perfectamente alineadas.
+        </p>
+      </section>
+
+      <div style="text-align: center;">
+        <a href="index.html" class="btn-primario">← Volver al portfolio</a>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2026 Selene Desiree Pedulla — 6°2 E.E.S.T. N° 5</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
